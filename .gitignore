@@ -33,8 +33,7 @@ ENV/
 *.swo
 *~
 
-# Models and cache
-models/
+# Models and cache (downloaded model files, not source code)
 *.pth
 *.pt
 *.bin
