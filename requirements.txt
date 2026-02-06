@@ -1,0 +1,31 @@
+# Core ML/AI frameworks
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Audio processing
+openai-whisper>=20231117
+soundfile>=0.12.0
+librosa>=0.10.0
+
+# Image processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# BLIP model (Salesforce)
+salesforce-lavis>=1.0.0
+
+# Qwen model support
+tiktoken>=0.5.0
+einops>=0.7.0
+
+# Utilities
+numpy>=1.24.0
+scipy>=1.11.0
+tqdm>=4.66.0
+pyyaml>=6.0
+
+# API and web framework (optional)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0

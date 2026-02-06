@@ -1,0 +1,20 @@
+# Configuration file for Multimodal Medical AI Assistant
+
+audio:
+  model_size: base  # Options: tiny, base, small, medium, large
+  device: cpu       # Options: cpu, cuda
+  language: en      # Language code for transcription
+
+visual:
+  model_name: Salesforce/blip-image-captioning-base
+  device: cpu
+
+llm:
+  model_name: Qwen/Qwen-1_8B-Chat  # Can use other models compatible with transformers
+  device: cpu
+  max_length: 512
+  temperature: 0.7
+  top_p: 0.9
+
+fusion:
+  device: cpu
